@@ -51,12 +51,37 @@ if (itWorks) {
 
 ### Featured projects
 
-| Project | What it does | Stack |
-|---|---|---|
-| [**Strategy-AI**](https://github.com/SachinDevlope/STRATEGY-AI) · [live](https://strategy-ai-lac.vercel.app) | AI resume builder and analyzer. Brutally honest, unlike your friends | Next.js 15, Groq, Auth.js, MongoDB, Vercel Blob |
-| [**Tracker**](https://github.com/SachinDevlope/Tracker) | Tracks attendance, expenses and debts. Mostly reminds me where my salary went | Next.js 16, React 19, MongoDB, PDF.js |
-| [**EduFix**](https://github.com/SachinDevlope/EduFix) | School issue reporting portal, so the broken fan finally gets a ticket number | Next.js, TypeScript, MongoDB, Jest |
-| [**Hometown Hub**](https://github.com/SachinDevlope/Hometown) | Community platform to reconnect with your hometown, minus the relatives asking about salary | Next.js 15, PostgreSQL, Prisma |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/SachinDevlope/STRATEGY-AI">Strategy-AI</a></h3>
+      AI resume builder and analyzer. Brutally honest, unlike your friends.<br/><br/>
+      <img src="https://skillicons.dev/icons?i=nextjs,ts,mongodb,vercel&theme=dark" height="32" alt="stack" /><br/><br/>
+      <a href="https://strategy-ai-lac.vercel.app"><b>Live demo</b></a> · <a href="https://github.com/SachinDevlope/STRATEGY-AI">Code</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/SachinDevlope/Tracker">Tracker</a></h3>
+      Tracks attendance, expenses and debts. Mostly reminds me where my salary went.<br/><br/>
+      <img src="https://skillicons.dev/icons?i=nextjs,react,mongodb,tailwind&theme=dark" height="32" alt="stack" /><br/><br/>
+      <a href="https://github.com/SachinDevlope/Tracker"><b>Code</b></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/SachinDevlope/EduFix">EduFix</a></h3>
+      School issue reporting portal, so the broken fan finally gets a ticket number.<br/><br/>
+      <img src="https://skillicons.dev/icons?i=nextjs,ts,mongodb,jest&theme=dark" height="32" alt="stack" /><br/><br/>
+      <a href="https://github.com/SachinDevlope/EduFix"><b>Code</b></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/SachinDevlope/Hometown">Hometown Hub</a></h3>
+      Reconnect with your hometown, minus the relatives asking about salary.<br/><br/>
+      <img src="https://skillicons.dev/icons?i=nextjs,ts,postgres,prisma&theme=dark" height="32" alt="stack" /><br/><br/>
+      <a href="https://github.com/SachinDevlope/Hometown"><b>Code</b></a>
+    </td>
+  </tr>
+</table>
+
 
 ### Fun facts
 
