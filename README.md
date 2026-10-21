@@ -1,81 +1,59 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1412,60:3b2a20,100:c8773a&height=190&section=header&text=Sachin%20Kumar&fontSize=46&fontColor=F5E6D3&fontAlignY=36&desc=Full%20Stack%20Developer%20%C2%B7%20Next.js%20%C2%B7%20React%20%C2%B7%20Node.js%20%C2%B7%20TypeScript&descSize=16&descAlignY=58&animation=fadeIn" width="100%" alt="Sachin Kumar" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1412,60:3b2a20,100:c8773a&height=190&section=header&text=Sachin%20Kumar&fontSize=46&fontColor=F5E6D3&fontAlignY=36&desc=building.%20breaking.%20learning.&descSize=18&descAlignY=58&animation=fadeIn" width="100%" alt="Sachin Kumar" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1400&color=E8A15A&center=true&vCenter=true&width=620&lines=Full+Stack+Developer+at+Nav+Jyoti+Metals;Building+a+manufacturing+ERP+two+companies+use+daily;298+reads+down+to+16.+Still+proud.;Next.js,+React,+Node.js,+TypeScript,+Firestore" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=17&pause=1800&color=E8A15A&center=true&vCenter=true&width=560&lines=full+stack+developer,+ghaziabad;self-taught,+log-reading,+coffee-powered;an+ERP+by+day,+small+tools+by+night;engineer+in+progress" alt="typing" />
 </p>
 
-```bash
-$ whoami
-Sachin Kumar — Full Stack Developer, Ghaziabad, India
+I'm a full stack developer in Ghaziabad. Self-taught. I learned by building things, breaking them, and reading the logs until they made sense.
 
-$ cat now.txt
-Building Nav Jyoti ERP: an in-house manufacturing ERP for a cable and wire plant,
-used every day by two companies for HR, production, purchase, inventory, dispatch and email.
-Before this: full stack apps at ReqX Technologies (EduFix, Hometown Hub).
+Most days I work on a manufacturing ERP that two companies run on. Nights, I build small tools for my own life, usually because I wanted an answer nobody else was going to give me. Like where my salary went.
 
-$ cat how.txt
-Read the logs. Measure. Fix. Measure again. Ship with the numbers.
+### how i work
 
-$ ./coffee --status
-refilling (always)
-```
+- The logs are usually right. I'm usually wrong first. That's fine, it's faster than guessing.
+- "Feels faster" is not a number. 1.79 s → 0.68 s is a number.
+- A fix ships with proof: output verified identical on live data, or it doesn't ship.
+- Small commits, plain-English messages. Future me is the reader, and he's tired.
+- If I need a tool, I build it, then I actually use it.
 
-### $ tree nav-jyoti-erp
+### the work
 
 ```
-nav-jyoti-erp/
-├── hr/           recruitment pipeline, joining form, offer letters, employee master, leaves, holidays
-├── attendance/   eSSL X2008 biometric punches over ADMS, through a Cloudflare Worker proxy
-│                 daily / monthly / 92-day views, Excel export, A4 print, one machine per company
-├── production/   DPR entry for 4 lines (Cable, DPC Wire, DPC Strip, SE Wire), plan vs actual, incentives
-├── purchase/     GRN split across POs, return to vendor, approval-gated quantity corrections on FIFO stock
-├── dispatch/     route planner: suggested trucks and Google routes from open dispatch instructions
-├── prices/       daily metal rates from NALCO, Hindalco, BALCO, Westmetall and Vedanta's LME mail
-├── email/        a Gmail client inside the ERP: sync, filing by customer / vendor / desk, threaded replies
-└── backup/       resumable chunked uploads of the document archive to Google Drive
+nav-jyoti-erp/          what two companies run on every day
+├── hr + attendance     recruitment, offer letters, leaves; biometric punches over ADMS via a Cloudflare Worker
+├── production          DPR entry for 4 lines, plan vs actual, incentive scheme
+├── purchase            GRN split across POs, returns to vendor, approval-gated stock corrections
+├── dispatch + prices   truck route planner; daily metal rates from NALCO, Hindalco, BALCO, Westmetall, LME
+└── email               a Gmail client inside the ERP: sync, filing by customer / vendor / desk, threaded replies
 ```
 
-<sub>Next.js 14 · TypeScript · Firestore · NextAuth · Cloudflare Workers · Vercel. Built on a work account, which is why this profile's graph looks like I'm on holiday. I'm not.</sub>
+Numbers I can back up:
 
-### $ git log --fixes
+- A report screen read **298 work orders to show 16**. Now it reads 16. Page load **1.79 s → 0.68 s**, and saves stopped waiting on a 7–60 s recompute. Rolled out to 4 production lines.
+- One missed morning punch used to turn **every following day into a half day**. It doesn't anymore. Payroll noticed before I did.
+- **3,361 email threads** were filed under one vendor because that vendor was CC'd on them. Filing now looks at who actually wrote.
 
-```diff
-- the DPR screen read 298 work orders to show 16, and every save waited on a 7–60 s recompute
-+ reads narrowed to the line, writes in parallel, recompute moved to the background with waitUntil
-+ page load 1.79 s → 0.68 s (−62%) · save reads 1.6 s → 0.57 s (−64%) · output identical · 4 lines
+<sub>Next.js 14 · TypeScript · Firestore · NextAuth · Cloudflare Workers · Vercel. Built on a work account, so this profile's graph is only the night-time stuff.</sub>
 
-- one missed morning punch turned every following day into a half day
-+ staff punches paired by calendar date; night-shift pairing kept for factory labour
-
-- two companies reused the same employee codes, so a punch could land on the wrong person
-+ each biometric machine tied to its company; refused and unknown devices logged
-
-- counting a thread's messages fetched every message body, up to 0.5 MB each, on every synced mail
-+ one count aggregation; fourteen one-by-one mailbox reads became a single query
-
-- one vendor address copied on 3,361 unrelated threads filed every one of them as Vendor
-+ filing matches on the sender only
-```
-
-### $ cat stack
+### stack
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=nextjs,react,nodejs,ts,js,express,mongodb,postgres,prisma,firebase,tailwind,jest,vercel,git&theme=dark&perline=7" alt="stack" />
 </p>
 
-### $ ls side-projects
+### things i built for myself, then put online
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/SachinDevlope/STRATEGY-AI">Strategy-AI</a></h3>
-      Resume builder and analyzer on Groq: ATS-friendly PDF, match score, skill gaps, interview prep. It reviewed my resume too. We don't talk about the score.<br/><br/>
+      I needed a resume reviewer that wouldn't be polite about it. So I built one. Resume builder plus analyzer on Groq: match score, skill gaps, interview prep.<br/><br/>
       <img src="https://skillicons.dev/icons?i=nextjs,ts,mongodb,vercel&theme=dark" height="32" alt="stack" /><br/><br/>
-      <a href="https://strategy-ai-lac.vercel.app"><b>Live demo</b></a> · <a href="https://github.com/SachinDevlope/STRATEGY-AI">Code</a>
+      <a href="https://strategy-ai-lac.vercel.app"><b>Live</b></a> · <a href="https://github.com/SachinDevlope/STRATEGY-AI">Code</a>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/SachinDevlope/Tracker">Tracker</a></h3>
-      Attendance, expenses, debts and tiffin in one PWA. Imports bank statement PDFs and lets an LLM work out where the money went.<br/><br/>
+      I wanted to know where my salary went. Now I know. I'm not happier, but I know. Attendance, expenses, debts and tiffin in one PWA, with bank statement import.<br/><br/>
       <img src="https://skillicons.dev/icons?i=nextjs,react,mongodb,tailwind&theme=dark" height="32" alt="stack" /><br/><br/>
       <a href="https://github.com/SachinDevlope/Tracker"><b>Code</b></a>
     </td>
@@ -83,20 +61,33 @@ nav-jyoti-erp/
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/SachinDevlope/EduFix">EduFix</a></h3>
-      School facility issue portal: JWT auth, RBAC for 4 roles, Jest tests. The broken fan finally gets a ticket number.<br/><br/>
+      School facility issue portal. JWT auth, RBAC for 4 roles, Jest tests. The broken fan finally gets a ticket number.<br/><br/>
       <img src="https://skillicons.dev/icons?i=nextjs,ts,mongodb,jest&theme=dark" height="32" alt="stack" /><br/><br/>
       <a href="https://github.com/SachinDevlope/EduFix"><b>Code</b></a>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/SachinDevlope/Hometown">Hometown Hub</a></h3>
-      Community platform on PostgreSQL and Prisma: communities, feed, comments, events. Relatives asking about salary not included.<br/><br/>
+      A community platform for people who left home and still think about it. Communities, feed, events, on PostgreSQL and Prisma.<br/><br/>
       <img src="https://skillicons.dev/icons?i=nextjs,ts,postgres,prisma&theme=dark" height="32" alt="stack" /><br/><br/>
       <a href="https://github.com/SachinDevlope/Hometown"><b>Code</b></a>
     </td>
   </tr>
 </table>
 
-### $ ping sachin
+### status
+
+```bash
+$ status
+focusing
+
+$ learning
+system design, and how to say "it depends" with a straight face
+
+$ coffee
+refilling
+```
+
+### say hi
 
 <p align="left">
   <a href="mailto:sachin.devlope@gmail.com"><img src="https://skillicons.dev/icons?i=gmail&theme=dark" height="40" alt="Email" /></a>&nbsp;
