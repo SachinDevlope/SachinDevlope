@@ -73,8 +73,13 @@ if (itWorks) {
 
 ### Reach me
 
-[![Email](https://img.shields.io/badge/Email-sachin.devlope%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sachin.devlope@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sachin_Kumar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sachin-kumar-1a18461b1)
-[![Live Project](https://img.shields.io/badge/Live-Strategy--AI-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://strategy-ai-lac.vercel.app)
+<p align="left">
+  <a href="mailto:sachin.devlope@gmail.com"><img src="https://skillicons.dev/icons?i=gmail&theme=dark" height="44" alt="Email" /></a>&nbsp;
+  <a href="https://www.linkedin.com/in/sachin-kumar-1a18461b1"><img src="https://skillicons.dev/icons?i=linkedin&theme=dark" height="44" alt="LinkedIn" /></a>&nbsp;
+  <a href="https://strategy-ai-lac.vercel.app"><img src="https://skillicons.dev/icons?i=vercel&theme=dark" height="44" alt="Strategy-AI live" /></a>
+</p>
+
+**sachin.devlope@gmail.com** · [LinkedIn](https://www.linkedin.com/in/sachin-kumar-1a18461b1) · [Strategy-AI (live)](https://strategy-ai-lac.vercel.app)
+
 
 <p align="center"><i>If you read this far, you either want to hire me or you're also procrastinating. Either way, hi.</i></p>
