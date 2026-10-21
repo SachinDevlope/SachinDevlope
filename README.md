@@ -46,7 +46,7 @@ if (itWorks) {
 ### Tech stack
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=nextjs,react,nodejs,ts,js,express,mongodb,postgres,prisma,firebase,tailwind,jest,vercel,git&theme=dark&perline=14" alt="Tech stack" />
+  <img src="https://skillicons.dev/icons?i=nextjs,react,nodejs,ts,js,express,mongodb,postgres,prisma,firebase,tailwind,vercel,git&theme=dark&perline=14" alt="Tech stack" />
 </p>
 
 ### Featured projects
