@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Sachin 👋</h1>
+<!-- <h1 align="center">Hi, I'm Sachin 👋</h1>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=36BCF7&center=true&vCenter=true&width=650&lines=Full+Stack+Developer;I+turn+coffee+into+Server+Actions;Made+a+page+62%25+faster.+Still+not+over+it.;It+works+on+my+machine.+And+in+production.;Reading+logs+so+you+don't+have+to." alt="Typing SVG" />
@@ -6,7 +6,7 @@
 
 <p align="center"><i>Full Stack Developer who reads production logs for fun. Yes, on purpose.</i></p>
 
----
+--- -->
 
 ### About me
 
