@@ -71,7 +71,7 @@ const translate = {
     <td width="50%" valign="top">
       <h3><a href="https://github.com/SachinDevlope/EduFix">EduFix</a></h3>
       School issue reporting portal, so the broken fan finally gets a ticket number.<br/><br/>
-      <img src="https://skillicons.dev/icons?i=nextjs,ts,mongodb,jest&theme=dark" height="32" alt="stack" /><br/><br/>
+      <img src="https://skillicons.dev/icons?i=nextjs,ts,mongodb&theme=dark" height="32" alt="stack" /><br/><br/>
       <a href="https://github.com/SachinDevlope/EduFix"><b>Code</b></a>
     </td>
     <td width="50%" valign="top">
